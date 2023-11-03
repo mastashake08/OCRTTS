@@ -1,8 +1,8 @@
 {
   "name": "ocrtts",
   "version": "1.0.0-alpha",
-  "description": "npm package template.",
-  "author": "Mark <mark@remarkablemark.org>",
+  "description": "OCR TTS with pure Javascript",
+  "author": "Jyrone Parker <jyrone.parker@gmail.com>",
   "main": "index.js",
   "module": "index.js",
   "scripts": {
@@ -17,17 +17,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/remarkablemark/ocrtts"
+    "url": "https://github.com/mastashake08/ocrtts"
   },
   "bugs": {
-    "url": "https://github.com/remarkablemark/ocrtts/issues"
+    "url": "https://github.com/mastashake08/ocrtts/issues"
   },
   "keywords": [
-    "ocrtts"
+    "ocrtts",
+    "TextDetector API",
+    "Speech Synthesis API"
   ],
   "dependencies": {
-    "@mastashake08/speech-kit": "2.0.8",
-    "jsdoc-to-markdown": "8.0.0"
+    "@mastashake08/speech-kit": "2.0.8"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
@@ -40,7 +41,8 @@
     "mocha": "^8.2.1",
     "nyc": "^15.1.0",
     "prettier": "^2.2.1",
-    "standard-version": "^9.0.0"
+    "standard-version": "^9.0.0",
+    "jsdoc-to-markdown": "8.0.0"
   },
   "files": [],
   "license": "MIT"
