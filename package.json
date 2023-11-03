@@ -1,6 +1,6 @@
 {
   "name": "@mastashake08/ocrtts",
-  "version": "1.0.3-alpha",
+  "version": "1.0.4-alpha",
   "description": "OCR TTS with pure Javascript",
   "author": "Jyrone Parker <jyrone.parker@gmail.com>",
   "main": "index.js",
@@ -44,6 +44,6 @@
     "standard-version": "^9.0.0",
     "jsdoc-to-markdown": "8.0.0"
   },
-  "files": [],
+  "files": ["classes/"],
   "license": "MIT"
 }
