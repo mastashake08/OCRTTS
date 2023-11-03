@@ -1,6 +1,6 @@
 {
-  "name": "ocrtts",
-  "version": "1.0.0-alpha",
+  "name": "@mastashake08/ocrtts",
+  "version": "1.0.1-alpha",
   "description": "OCR TTS with pure Javascript",
   "author": "Jyrone Parker <jyrone.parker@gmail.com>",
   "main": "index.js",
