@@ -1,3 +1,5 @@
-module.exports = function () {
-  return 'ocrtts';
-};
+import { OcrTTS } from "./classes/OcrTTS";
+
+export {
+  OcrTTS
+}
